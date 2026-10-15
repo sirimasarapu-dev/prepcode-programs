@@ -1,6 +1,8 @@
 username="EL7ME30"
 password="123456"
-if user_name==user_name-input and password==password-input:
+username_input=input("enter the username:")
+password_input=input("enter the password:")
+if username==username_input and password==password_input:
     print("login successfull")
 else:
     print("username or password is along")    
